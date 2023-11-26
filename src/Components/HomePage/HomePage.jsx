@@ -28,7 +28,7 @@ export const HomePage = () => {
                       
                           <div className={classes.article}><p >Трибьют к 70-летию БГ!</p></div>
                           <div className={classes.article}><img fetchpriority="high" role="presentation"  src={imgUrl} width={100} alt={imgAlt} /></div>
-                          <p className={classes.nameAudio}>Медоманы. Время луны</p>
+                          <p className={classes.nameAudio}>Медоманы. Время Луны</p>
                           <audio controls 
           src={frontAudio} type="audio/mpeg" />
       
