@@ -1,6 +1,6 @@
 {
-  "name": "BG-2023",
-  "homepage": "",
+  "name": "bg-2023",
+  "homepage": "https://trdmitr.github.io/BG-2023/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
