@@ -177,7 +177,7 @@
     border-radius: 1em;
     color: var(--colorText);
     border-color: #2196f3;
-    border: 2px dotted #e4e0e7;
+    /* border: 2px dotted #e4e0e7; */
   
   
     /* opacity:70% */

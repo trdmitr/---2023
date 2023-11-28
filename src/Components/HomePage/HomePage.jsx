@@ -17,10 +17,10 @@ export const HomePage = () => {
 
                   <div>
                       {/* <span className={classes.navLink}>Сборник за 3 года</span> */}
-                      {/* <Link to="/cavers21"  className={classes.navLink21}>2021</Link>
-                      <Link to="/cavers22"  className={classes.navLink22}>2022</Link> */}
-                      <Link to="/cavers23"  className={classes.navLink23}>Слушаем!</Link>
-      
+                      <Link to="/cavers20"  className={classes.navLink20}>2020</Link>
+                      <Link to="/cavers22"  className={classes.navLink22}>2022</Link>
+                      <Link to="/cavers23"  className={classes.navLink23}>2023</Link>
+                        
                      {/* <Link to={`/cavers21`} className={classes.navLink21}>Слушаем!</Link> */}
                       {/* <Link to={`/cavers${yearTrib22}`} className={classes.navLink22}>2022</Link>
                       <Link to={`/cavers${yearTrib23}`} className={classes.navLink23}>2023</Link> */}

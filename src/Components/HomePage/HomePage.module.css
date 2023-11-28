@@ -51,7 +51,53 @@ clip-path: polygon(0 24%, 15% 15%, 43% 29%, 77% 21%, 88% 15%, 100% 15%, 100% 74%
     /* opacity: 0.7; */
     box-shadow: var(--buttonShadow)
   }
+  .navLink22 {
+    position: absolute;
+    /* clip-path: var(--foundation); */
+    padding: 0.1em 2em 3em 2em;
+    /* margin-right: 1em; */
+    box-sizing: border-box;
+    top: 79%;
+    left: 4%;
+    line-height: 3.5em;
+    border: 6px solid #84d586;
+    border-radius: 9em;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--buttonColor);
+    background-color: var(--buttonBack);
+    -webkit-clip-path:var(--clipPath);
+    clip-path: var(--clipPath);
   
+    height: 4em;
+    /* box-shadow: -8px 15px 43px 20px rgba(34, 60, 80, 0.3) inset; */
+    box-shadow: var(--buttonShadow);
+   
+  }
+
+  .navLink20 {
+    position: absolute;
+    /* clip-path: var(--foundation); */
+    padding: 0.1em 2em 3em 2em;
+    /* margin-right: 1em; */
+    box-sizing: border-box;
+    top: 79%;
+    left: 57%;
+    line-height: 3.5em;
+    border: 6px solid #84d586;
+    border-radius: 9em;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--buttonColor);
+    background-color: var(--buttonBack);
+    -webkit-clip-path:var(--clipPath);
+    clip-path: var(--clipPath);
+  
+    height: 4em;
+    /* box-shadow: -8px 15px 43px 20px rgba(34, 60, 80, 0.3) inset; */
+    box-shadow: var(--buttonShadow);
+   
+  }
   
     .navLink23 {
       position: absolute;
@@ -59,10 +105,10 @@ clip-path: polygon(0 24%, 15% 15%, 43% 29%, 77% 21%, 88% 15%, 100% 15%, 100% 74%
       padding: 0.1em 2em 3em 2em;
       /* margin-right: 1em; */
       box-sizing: border-box;
-      top: 84%;
-      left: 22%;
+      top: 89%;
+      left: 29%;
       line-height: 3.5em;
-      border: 16px solid #84d586;
+      border: 6px solid #84d586;
       border-radius: 9em;
       text-decoration: none;
       font-weight: bold;

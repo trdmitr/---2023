@@ -14,15 +14,15 @@ import Loader from '../Loader/Loader';
 export const CaverPage = () => {
   const [modal, setModal] = useState(false);
   const location = useLocation();
-  const urlParse22 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQmx_iulHLoTMNZX0HiiLm5edammyks2qna2MG6LYWyuLoMDgtLA2AqQ8p7y6fNs-7Zsjt4tRibMjLO/pub?output=csv";
-  // const urlParse21 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSJpAqJmngxzKzdpaHbqA9kxuJkx0eljTICVi0qJ6Qk6-1YcpFBitfQOV2C2qHZ9uZF04zeNLYUSXov/pub?output=csv"
+  const urlParse22 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS93cptJsirzwns7d-Gv8JX_F7wje7dFgEqZQhIv5LCqHMtfk0RWnVuyHPzrOCTqhd-4_XCcERYPaUU/pub?output=csv";
+  const urlParse20 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9S4q9QQzK2mW3y1elEhz3pTS_FmykQr4LZzVz_C94M8zkmqO-MKYmvOTJlK-pPL4efRNyQ3gdx8WS/pub?output=csv"
   // const urlParse22 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTqMSBKbaIPUyfikTyHNpByUzLbxWxChMy96gx1a7WKMXFGNydi2ZTgotnDwgbhLjGkXuTlhGGgsKZ8/pub?output=csv";
   // ДДТ-2022 НОРМ
-  const urlParse21= "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6iuzOmkC7RdMVy7xGA9nVlygwhtlxVTzkcr5yaJkAFm6CZadNibed7Wa2CNVmZa4L1ehka2mropLl/pub?output=csv";
+  // const urlParse21= "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6iuzOmkC7RdMVy7xGA9nVlygwhtlxVTzkcr5yaJkAFm6CZadNibed7Wa2CNVmZa4L1ehka2mropLl/pub?output=csv";
   const urlParse23 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQmx_iulHLoTMNZX0HiiLm5edammyks2qna2MG6LYWyuLoMDgtLA2AqQ8p7y6fNs-7Zsjt4tRibMjLO/pub?output=csv"
   const urlLoc = location.pathname;
   
-  const currUrl = urlLoc.includes('cavers21') ? urlParse21 : urlLoc.includes('cavers22') ? urlParse22 : urlLoc.includes('cavers23') ? urlParse23 : "";
+  const currUrl = urlLoc.includes('cavers20') ? urlParse20 : urlLoc.includes('cavers22') ? urlParse22 : urlLoc.includes('cavers23') ? urlParse23 : "";
   useFetch(currUrl)
   const all_songs = useSelector(
     ({ songs_reducer: { all_songs } }) => all_songs
