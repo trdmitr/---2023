@@ -17,7 +17,7 @@ export const HomePage = () => {
 
                   <div>
                       {/* <span className={classes.navLink}>Сборник за 3 года</span> */}
-                      <Link to="/cavers20"  className={classes.navLink20}>2020</Link>
+                      <Link to="/cavers20"  className={classes.navLink20}>20-21</Link>
                       <Link to="/cavers22"  className={classes.navLink22}>2022</Link>
                       <Link to="/cavers23"  className={classes.navLink23}>2023</Link>
                         
