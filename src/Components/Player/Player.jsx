@@ -38,6 +38,7 @@ const Player = () => {
           borderTopLeftRadius: "0rem", borderTopRightRadius: "0rem",
           borderBottomLeftRadius: "1em", borderBottomRightRadius: "1em", backgroundColor: "#green"
         }}
+        preload="metadata"
         // autoPlay
         // layout="horizontal"
         src={audioList[trackIndex].src}

@@ -17,7 +17,7 @@ export const tzitata = (imgLink) => {
     return (
       <div>
         <p className={linkAuidio ? '' : classes.mediaHidden}>{linkName} </p>
-        <audio controls className={linkAuidio ? '' : classes.mediaHidden}
+        <audio controls preload="metadata" className={linkAuidio ? '' : classes.mediaHidden}
           src={linkAuidio} type="audio/mpeg" />
       </div>
     )
